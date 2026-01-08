@@ -190,4 +190,56 @@ header nav{
 .cards p{
     font-size: 12px;
     margin-bottom: 16px;
+    color: #627382;
+}
+
+/* Note Section End */
+/* Solution Section Start */
+
+.solution{
+    height: 540px;
+    width: 71%;
+    max-width: 1360px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.solution-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.solution-container .image1 img{
+    height: 400px;
+    width: 400px;
+}
+.solution-content .scp{
+    color: #30B868;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-bottom: 16px;
+}
+.solution-content h2{
+    font-size: 38px;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+.solution-content p{
+    font-size: 12px;
+    margin-bottom: 16px;
+    color: #627382;
+}
+
+.solution-content ul li{
+    list-style: none;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.solution-content ul li .cl{
+    color: #30B868;
 }
