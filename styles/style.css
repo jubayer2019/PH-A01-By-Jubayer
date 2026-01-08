@@ -65,7 +65,10 @@ header nav{
 .banner{
     height: 670px;
     width: 100%;
-    background: url(../assets/hero-bg.png);
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ), url(../assets/hero-bg.png);
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -127,4 +130,64 @@ header nav{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* Banner section end */
+/* Notes Section Start */
+.notes{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.notes-content{
+    width: 80%;
+    max-width: 1360px;
+    text-align: center;
+}
+
+.note-head h2{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.note-head p{
+    font-size: 16px;
+    margin-bottom: 26px;
+}
+
+.note-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: center;
+    height: 300px;
+    width: 320px;
+    padding: 40px 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+    background: rgba(255, 255, 255, 1);
+}
+
+.cards img{
+    background-color: #F95555;
+    border-radius: 50%;
+    padding: 10px;
+    margin-bottom: 16px;
+}
+.cards h4{
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+
+.cards p{
+    font-size: 12px;
+    margin-bottom: 16px;
 }
