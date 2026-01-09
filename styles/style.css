@@ -316,8 +316,13 @@ footer{
     display: flex;
     gap: 16px;
 }
+.foother-logos ul a{
+    text-decoration: none;
+    color: #E5E7EB;
+}
 .foother-logos ul li{
     list-style: none;
+    color: #F7F6F2;
 }
 
 .footer-container hr{
