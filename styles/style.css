@@ -19,6 +19,7 @@
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
 }
 .btn2{
     font-size: 16px;
@@ -242,4 +243,91 @@ header nav{
 }
 .solution-content ul li .cl{
     color: #30B868;
+}
+
+/* Solution Section End */
+/* Ready Section Start*/
+
+.ready{
+    height: 500px;
+}
+.ready-container{
+    height: 385px;
+    width: 80%;
+    max-width: 1360px;
+    background-color: #F7F6F2;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ready-container h2{
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.ready-container p{
+    font-size: 12px;
+    margin-bottom: 24px;
+    color: #627382;
+}
+.ready-container div{
+    margin-bottom: 16px;
+}
+
+/* Ready section End */
+
+/* Footer Start */
+
+footer{
+    height: 350px;
+    background-color: #001931;
+}
+.footer-container{
+    width: 80%;
+    max-width: 1360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.foother-logos{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+    margin-bottom: 80px;
+    color: white;
+}
+
+.foother-logos img{
+    height: 60px;
+    width: auto;
+}
+.foother-logos p{
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.foother-logos ul{
+    display: flex;
+    gap: 16px;
+}
+.foother-logos ul li{
+    list-style: none;
+}
+
+.footer-container hr{
+    background-color: #E5E7EB;
+    margin-bottom: 30px;
+    height: 1px;
+    border: none;
+}
+
+.copyright{
+    color: #FAFAFA;
+    font-size: 12px;
 }
